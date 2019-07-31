@@ -1,0 +1,212 @@
+[
+    {
+        "id": 0,
+        "name": "Война и мир",
+        "author": "Л.Н. Толстой",
+        "status": "в наличии",
+        "reder": "",
+        "returnDate": "",
+        "count": 1,
+        "rating": 40
+    },
+    {
+        "id": 1,
+        "name": "Котлован",
+        "author": "А.П. Платонов",
+        "status": "в наличии",
+        "reder": "",
+        "returnDate": "",
+        "count": 1,
+        "rating": 6
+    },
+    {
+        "id": 2,
+        "name": "Преступление и наказание",
+        "author": "Ф.М. Достоевский",
+        "status": "в наличии",
+        "reder": "",
+        "returnDate": "",
+        "count": 2,
+        "rating": 20
+    },
+    {
+        "id": 3,
+        "name": "Отцы и дети",
+        "author": "И.С. Тургенев",
+        "status": "в наличии",
+        "reder": "",
+        "returnDate": "",
+        "count": 0,
+        "rating": 0
+    },
+    {
+        "id": 4,
+        "name": "Мастер и Маргарита",
+        "author": "М.А. Булгаков",
+        "status": "в наличии",
+        "reder": "",
+        "returnDate": "",
+        "count": 0,
+        "rating": 0
+    },
+    {
+        "id": 5,
+        "name": "Обломов",
+        "author": "И.А. Гончаров",
+        "status": "в наличии",
+        "reder": "",
+        "returnDate": "",
+        "count": 0,
+        "rating": 0
+    },
+    {
+        "id": 6,
+        "name": "Герой нашего времени",
+        "author": "М.Ю. Лермонтов",
+        "status": "в наличии",
+        "reder": "",
+        "returnDate": "",
+        "count": 5,
+        "rating": 43
+    },
+    {
+        "id": 7,
+        "name": "рассказы",
+        "author": "И.А. Бунин",
+        "status": "в наличии",
+        "reder": "",
+        "returnDate": "",
+        "count": 0,
+        "rating": 0
+    },
+    {
+        "id": 8,
+        "name": "Евгений Онегин",
+        "author": "А.С. Пушкин",
+        "status": "в наличии",
+        "reder": "",
+        "returnDate": "",
+        "count": 1,
+        "rating": 9
+    },
+    {
+        "id": 9,
+        "name": "Доктор Живаго",
+        "author": "Б.Л. Пастернак",
+        "status": "в наличии",
+        "reder": "",
+        "returnDate": "",
+        "count": 0,
+        "rating": 0
+    },
+    {
+        "id": 10,
+        "name": "Полный справочник по C++",
+        "author": "Герберт Шилдт",
+        "status": "в наличии",
+        "reder": "",
+        "returnDate": "",
+        "count": 0,
+        "rating": 0
+    },
+    {
+        "id": 11,
+        "name": "C++: базовый курс",
+        "author": "Герберт Шилдт",
+        "status": "в наличии",
+        "reder": "",
+        "returnDate": "",
+        "count": 0,
+        "rating": 0
+    },
+    {
+        "id": 12,
+        "name": "Java. Полное руководство",
+        "author": "Герберт Шилдт",
+        "status": "в наличии",
+        "reder": "",
+        "returnDate": "",
+        "count": 0,
+        "rating": 0
+    },
+    {
+        "id": 13,
+        "name": "Java 8. Руководство для начинающих",
+        "author": "Герберт Шилдт",
+        "status": "в наличии",
+        "reder": "",
+        "returnDate": "",
+        "count": 0,
+        "rating": 0
+    },
+    {
+        "id": 14,
+        "name": "С++ для начинающих. Шаг за шагом",
+        "author": "Герберт Шилдт",
+        "status": "в наличии",
+        "reder": "",
+        "returnDate": "",
+        "count": 0,
+        "rating": 0
+    },
+    {
+        "id": 15,
+        "name": "Java 8. Руководство для начинающих",
+        "author": "Герберт Шилдт",
+        "status": "в наличии",
+        "reder": "",
+        "returnDate": "",
+        "count": 0,
+        "rating": 0
+    },
+    {
+        "id": 16,
+        "name": "Java 2. Наиболее полное руководство",
+        "author": "Герберт Шилдт",
+        "status": "в наличии",
+        "reder": "",
+        "returnDate": "",
+        "count": 0,
+        "rating": 0
+    },
+    {
+        "id": 17,
+        "name": "Полный справочник по C#",
+        "author": "Герберт Шилдт",
+        "status": "в наличии",
+        "reder": "",
+        "returnDate": "",
+        "count": 0,
+        "rating": 0
+    },
+    {
+        "id": 18,
+        "name": "Полный справочник по Java",
+        "author": "Герберт Шилдт",
+        "status": "в наличии",
+        "reder": "",
+        "returnDate": "",
+        "count": 0,
+        "rating": 0
+    },
+    {
+        "id": 19,
+        "name": "C/C++. Справочник программиста",
+        "author": "Герберт Шилдт",
+        "status": "в наличии",
+        "reder": "",
+        "returnDate": "",
+        "count": 0,
+        "rating": 0
+    },
+    {
+        "id": 20,
+        "name": "Искусство программирования на C++",
+        "author": "Герберт Шилдт",
+        "status": "в наличии",
+        "reder": "",
+        "returnDate": "",
+        "count": 0,
+        "rating": 0
+    }
+]

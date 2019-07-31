@@ -1,0 +1,28 @@
+<div class="bookList">
+    <table class="table table-striped table_sort">
+        <thead>
+            <tr>
+                <th scope="col">id</th>
+                <th scope="col">Название</th>
+                <th scope="col">Автор</th>
+                <th scope="col">Статус</th>
+                <th scope="col">Сейчас читает</th>
+                <th scope="col">Дата возврата</th>
+                <th scope="col">Прочитана раз</th>
+                <th scope="col">Рейтинг</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of bookList" class="bookinfo" aria-expanded="false">
+                <td>{{item.id}}</td>
+                <td><a [routerLink]="['/bookReview',item.id]">{{item.name}}</a></td>
+                <td>{{item.author}}</td>
+                <td>{{item.status}}</td>
+                <td>{{item.reder}}</td>
+                <td>{{item.returnDate}}</td>
+                <td>{{item.count}}</td>
+                <td>{{(item.rating/item.count)|number: '.1-2'}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

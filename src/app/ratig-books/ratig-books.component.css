@@ -1,0 +1,11 @@
+.ratingBooks{
+    margin: 10px auto;
+    width: 1200px;
+}
+th {
+    cursor: pointer;
+  }
+
+thead>tr>th:hover{
+    background-color: rgba(5, 5, 5, 0.082);
+}

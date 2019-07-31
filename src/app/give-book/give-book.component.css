@@ -1,0 +1,12 @@
+.card{
+    margin: 20px auto;
+    width: 400px;
+}
+.dropdown{
+    margin-bottom: 10px;
+}
+.giveBookBut{
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+}

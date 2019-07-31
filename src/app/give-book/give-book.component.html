@@ -1,0 +1,22 @@
+<div class="card">
+    <div class="card-header">
+        Выдача книги
+    </div>
+    <div class="card-body form-group">
+
+        <label>Выберите книгу</label><br>
+        <select name="bookId" class="form-control" [(ngModel)]="bookId">
+            <option *ngFor="let item of booklist" value={{item.id}}>{{item.name}}</option>
+        </select>
+
+        <label>Выберите читателя</label><br>
+        <select name="readerId" class="form-control" [(ngModel)]="readerId">
+            <option *ngFor="let item of readerlist" value={{item.id}}>{{item.name}}</option>
+        </select>
+
+        <br><label>Дата возврата</label><br>
+        <input type="date" class="form-control" max="2019-08-08" name="returnDate" [(ngModel)]="returnDate">
+        <button class="giveBookBut" (click)="giveBook(bookId, readerId, returnDate)">Выдать</button>
+    </div>
+
+</div>

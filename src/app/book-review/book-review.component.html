@@ -1,0 +1,54 @@
+<div class="card">
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    <h4>{{books[bookId].name}}</h4>
+                </td>
+                <td>{{(books[bookId].rating/books[bookId].count/10)|number: '.1-2'}} <b>★</b></td>
+            </tr>
+            <tr>
+                <td>Автор</td>
+                <td>{{books[bookId].author}}</td>
+            </tr>
+            <tr>
+                <td>Статус</td>
+                <td>{{books[bookId].status}}</td>
+            </tr>
+            <tr>
+                <td>Сейчас читает</td>
+                <td>{{books[bookId].reder}}</td>
+            </tr>
+            <tr>
+                <td>Дата возврата</td>
+                <td>{{books[bookId].returnDate}}</td>
+            </tr>
+            <tr>
+                <td>Прочитана раз</td>
+                <td>{{books[bookId].count}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="allreviews">
+    <div class="review form-group">
+        <header>
+            <h6>Оставить отзыв</h6>
+            <select class="form-group" [(ngModel)]="readerName">
+                <option *ngFor="let reader of readers" value={{reader.name}}>{{reader.name}}</option>
+            </select>
+            <input type="number" max="10" min="1" [(ngModel)]="rating"> /10 <b>★</b>
+        </header>
+        <textarea class="comment form-group" [(ngModel)]="comment"></textarea>
+        <button (click)="addReview(readerName, rating, comment)">Отправить</button>
+    </div>
+    <div class="review">
+        <header>
+            <h6>{{comments[0].readerName}} <span class="rating">{{comments[0].rating}} /10<b>★</b></span></h6>
+            
+        </header>
+        <div>{{comments[0].comment}}</div>
+    </div>
+
+</div>

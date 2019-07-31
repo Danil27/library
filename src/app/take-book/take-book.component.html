@@ -1,0 +1,15 @@
+<div class="card">
+    <div class="card-header">
+        Получение книги
+    </div>
+    <div class="card-body form-group">
+
+        <label>Выберите книгу</label><br>
+        <select name="bookId" class="form-control" [(ngModel)]="bookId">
+            <option *ngFor="let item of issueBooks" value={{item.id}}>{{item.name}}</option>
+        </select>
+
+        <button class="giveBookBut" (click)="takeBook(bookId)">Получить</button>
+    </div>
+
+</div>
